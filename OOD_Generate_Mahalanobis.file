@@ -1,0 +1,56 @@
+Namespace(batch_size=200, dataroot='./data', dataset='cifar10', gpu=0, net_type='resnet', num_classes=10, outf='./output/')
+load model: resnet
+load target data:  cifar10
+Files already downloaded and verified
+Files already downloaded and verified
+get sample mean and covariance
+
+ Training Accuracy:(99.00%)
+
+get Mahalanobis scores
+Noise: 0.0
+/home/kes/projects/kes_detector/lib_generation.py:69: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  data = Variable(data, volatile=True)
+/home/kes/projects/kes_detector/lib_generation.py:181: UserWarning: volatile was removed and now has no effect. Use `with torch.no_grad():` instead.
+  noise_out_features = model.intermediate_forward(Variable(tempInputs, volatile=True), layer_index)
+Using downloaded and verified file: ./data/svhn-data/train_32x32.mat
+Using downloaded and verified file: ./data/svhn-data/test_32x32.mat
+Out-distribution: svhn
+Out-distribution: imagenet_resize
+Out-distribution: lsun_resize
+Noise: 0.01
+Using downloaded and verified file: ./data/svhn-data/train_32x32.mat
+Using downloaded and verified file: ./data/svhn-data/test_32x32.mat
+Out-distribution: svhn
+Out-distribution: imagenet_resize
+Out-distribution: lsun_resize
+Noise: 0.005
+Using downloaded and verified file: ./data/svhn-data/train_32x32.mat
+Using downloaded and verified file: ./data/svhn-data/test_32x32.mat
+Out-distribution: svhn
+Out-distribution: imagenet_resize
+Out-distribution: lsun_resize
+Noise: 0.002
+Using downloaded and verified file: ./data/svhn-data/train_32x32.mat
+Using downloaded and verified file: ./data/svhn-data/test_32x32.mat
+Out-distribution: svhn
+Out-distribution: imagenet_resize
+Out-distribution: lsun_resize
+Noise: 0.0014
+Using downloaded and verified file: ./data/svhn-data/train_32x32.mat
+Using downloaded and verified file: ./data/svhn-data/test_32x32.mat
+Out-distribution: svhn
+Out-distribution: imagenet_resize
+Out-distribution: lsun_resize
+Noise: 0.001
+Using downloaded and verified file: ./data/svhn-data/train_32x32.mat
+Using downloaded and verified file: ./data/svhn-data/test_32x32.mat
+Out-distribution: svhn
+Out-distribution: imagenet_resize
+Out-distribution: lsun_resize
+Noise: 0.0005
+Using downloaded and verified file: ./data/svhn-data/train_32x32.mat
+Using downloaded and verified file: ./data/svhn-data/test_32x32.mat
+Out-distribution: svhn
+Out-distribution: imagenet_resize
+Out-distribution: lsun_resize
